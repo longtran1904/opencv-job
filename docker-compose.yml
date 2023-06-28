@@ -1,0 +1,9 @@
+version: '3'
+services:
+  opencv:
+    build: .
+    volumes:
+      - vol:/usr/src/app
+
+volumes:
+  vol:
